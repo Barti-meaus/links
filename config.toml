@@ -2,19 +2,22 @@
 languageCode = "de"
 defaultContentLanguage = "de"
 
-title = "Wuerfellustbarkeit"
-# copyright = "Copy, _right?_ :thinking_face:"
+title = "Würfellustbarkeit"
+copyright = "Würfellustbarkeit.de - Made with [Hugo](https://gohugo.io) and [Lynx Theme](https://github.com/jpanther/lynx#configuration)"
 
 enableEmoji = true
 disableKinds = ["taxonomy", "term"]
 
 [author]
-  name = "Bartimaeus, er/ihm"
-  headline = "Wer mag den bitte keine Kekse?"
-  # image = "img/author.jpg"  # path relative to static directory
+  name = "Bartimaeus"
+  headline = "Bartimeaus *(er/ihm)* spielt gerne [#PnP (Pen and Paper) Rollenspiele](https://de.wikipedia.org/wiki/Pen-%26-Paper-Rollenspiel) und schreibt darüber. Ihr findet mich auf den verlinkten Platform."
+  image = "profil_green_glitch.jpg"  # path relative to static directory
 
   links = [
-    # { email = "mailto:hello@your_domain.com" },
+    { mastodon = {href = "https://mastodon.pnpde.social/@Bartimaeus", text="Mastodon" } },
+    { itchio = {href = "https://barti-maeus.itch.io", text="Itch.io" } },
+    { twitter = {href = "https://twitter.com/Barti_maeus", text="Twitter" } },
+    { email = {href = "mailto:hallo@wuerfellustbarkeit.de", text="Elektronische Flaschenpost aka E-Mail" } },
     # { link = "https://link-to-some-website.com/" },
     # { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
     # { apple = "https://www.apple.com" },
@@ -33,7 +36,6 @@ disableKinds = ["taxonomy", "term"]
     # { kickstarter = "https://www.kickstarter.com/profile/username" },
     # { lastfm = "https://lastfm.com/user/username" },
     # { linkedin = "https://linkedin.com/in/username" },
-    # { mastodon = "https://mastodon.instance/@username" },
     # { medium = "https://medium.com/username" },
     # { microsoft = "https://www.microsoft.com/" },
     # { patreon = "https://www.patreon.com/username" },
@@ -49,7 +51,6 @@ disableKinds = ["taxonomy", "term"]
     # { tiktok = "https://tiktok.com/@username" },
     # { tumblr = "https://username.tumblr.com" },
     # { twitch = "https://twitch.tv/username" },
-    # { twitter = "https://twitter.com/username" },
     # { whatsapp = "https://wa.me/phone-number" },
     # { youtube = "https://youtube.com/username" },
   ]
