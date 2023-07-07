@@ -14,7 +14,7 @@ disableKinds = ["taxonomy", "term"]
   image = "profil_green_glitch.jpg"  # path relative to static directory
 
   links = [
-    { mastodon = {href = "https://mastodon.pnpde.social/@Bartimaeus", text="Mastodon" } },
+    { mastodon = {href = "https://mastodon.pnpde.social/@Bartimaeus", text="Mastodon", rel="me" } },
     { itchio = {href = "https://barti-maeus.itch.io", text="Itch.io" } },
     { twitter = {href = "https://twitter.com/Barti_maeus", text="Twitter" } },
     { email = {href = "mailto:hallo@wuerfellustbarkeit.de", text="Elektronische Flaschenpost aka E-Mail" } },
